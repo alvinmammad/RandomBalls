@@ -1,4 +1,52 @@
-.ironman {
-  position: absolute;
-  margin: 0 auto;
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.first{
+	background: blue;
+	width:40px;
+	height:40px;
+	position: absolute;
+	transition: all 1s ease;
+	border-radius: 100%;
+}
+.second{
+	background: red;
+	width:40px;
+	height:40px;
+	position: absolute;
+	transition: all 1s ease;
+	border-radius: 100%;
+}
+
+
+.third{
+	background: green;
+	width:40px;
+	height:40px;
+	position: absolute;
+	transition: all 1s ease;
+	border-radius: 100%;
+}
+.fourth{
+	background: yellow;
+	width:40px;
+	height:40px;
+	position: absolute;
+	transition: all 1s ease;
+	border-radius: 100%;
+}
+	
+#btns{
+	position: absolute;
+	left:40%;
+	top:20%;
+}
+
+#btns>button{
+	border:none;
+	outline:none;
+	padding:15px 25px;
+	font-size:15px;
+	background:gray;
 }
